@@ -75,8 +75,7 @@ const renderPlanet = (planet) => {
   charactersList.innerHTML = charactersLis.join("");
 
   const moviesLis = planet?.movies?.map(
-    (movie) =>
-      `<li><a href="/movie.html?id=${movie.id}">${movie.title}</a></li>`
+    (movie) => `<li><a href="/film.html?id=${movie.id}">${movie.title}</a></li>`
   );
   moviesList.innerHTML = moviesLis.join("");
 };

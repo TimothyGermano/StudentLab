@@ -101,18 +101,23 @@ section#films {
 
 section#planets ul,
 section#characters ul,
-section#films ul {
+section#films ul,
+section#Characters ul,
+section#Planets ul,
+section#Movies ul {
   list-style-type: none;
   padding: 0;
 }
 
 section#planets a,
 section#characters a,
-section#films a {
+section#films a,
+section#Characters a,
+section#Planets a,
+section#Movies a {
   display: inline-block;
   text-decoration: none;
   font-size: 1.1em;
-
   background-color: var(--light2);
   color: var(--dark2);
   font-weight: bold;
