@@ -95,7 +95,10 @@ h1#name {
 
 section#planets,
 section#characters,
-section#films {
+section#films,
+section#Planets,
+section#Movies,
+section#Characters {
   margin: 50px;
 }
 
